@@ -1,0 +1,10 @@
+<div>
+  <div class="flex justify-between items-start">
+    <div class="text-gray-700">
+      <%= chat.message %>
+    </div>
+    <div class="text-sm text-gray-400">
+      <%= time_ago_in_words(chat.created_at) %> ago
+    </div>
+  </div>
+</div>
